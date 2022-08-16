@@ -1,0 +1,7 @@
+.App {
+  min-height: 100%;
+  padding-bottom: 2rem;
+}
+.App.dark {
+  background-color: #100f10;
+}

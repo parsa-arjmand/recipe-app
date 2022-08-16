@@ -1,0 +1,46 @@
+.recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+  margin-top: 3rem;
+}
+.card {
+  background-color: #fff;
+  height: 100%;
+  padding: 1rem 1.5rem;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(66, 129, 245, 0.082);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-1.5%);
+}
+.cook-time {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(117, 117, 117);
+}
+
+p.card-method {
+  color: rgb(117, 117, 117);
+  font-size: 0.9rem;
+}
+.cook-this-cta {
+  display: inline-block;
+  background-color: #4280f5;
+  padding: 0.6rem 0.8rem;
+  color: white;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.card.dark {
+  background-color: #1b1b1b;
+  box-shadow: none;
+}
+.card.dark > h2 {
+  color: rgb(196, 196, 196);
+}
+.card.dark > p {
+  color: rgb(165, 165, 165);
+}

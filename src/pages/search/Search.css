@@ -1,0 +1,11 @@
+.search-page {
+  width: 90%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.search-page-title {
+  text-align: center;
+}
+.search-page-title span {
+  color: #4280f5;
+}

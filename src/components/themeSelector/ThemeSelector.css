@@ -1,0 +1,22 @@
+.theme-select {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.theme-selector-container {
+  margin: 1rem 0;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.mode-toggle img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.colors-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 6rem;
+}

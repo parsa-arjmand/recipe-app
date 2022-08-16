@@ -1,0 +1,7 @@
+.search-bar input {
+  font-family: inherit;
+}
+input::placeholder {
+  font-size: 0.8rem;
+  color: rgb(177, 177, 177);
+}

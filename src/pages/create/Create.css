@@ -1,0 +1,70 @@
+.create-recipe {
+  display: grid;
+  place-content: center;
+  margin-top: 3rem;
+}
+.create-recipe.dark form {
+  background: #1b1b1b;
+}
+.create-recipe.dark form div > input {
+  background: #242424;
+  border: #242424;
+  color: rgb(184, 184, 184);
+}
+.create-recipe.dark form div > label {
+  color: rgb(184, 184, 184);
+}
+.create-recipe form {
+  width: 30rem;
+
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(66, 129, 245, 0.082);
+}
+label {
+  margin-bottom: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.form-field {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.submit-btn {
+  cursor: pointer;
+  color: white;
+  background-color: #4280f5;
+  font-family: inherit;
+  width: 5rem;
+
+  border: none;
+}
+.ing-wrapper {
+  position: relative;
+}
+.ing-btn {
+  cursor: pointer;
+  position: absolute;
+  left: 2px;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 90%;
+  width: 4.5rem;
+  font-family: inherit;
+  background-color: #4280f5;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+.sub-input-ing {
+  font-size: 0.8rem;
+  color: rgb(141, 141, 141);
+  margin-top: 0.2rem;
+}
+@media screen and (max-width: 516px) {
+  .create-recipe form {
+    width: 90vw;
+  }
+}
